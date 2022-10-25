@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input { 
+    padding: 4px;
+    border : 1px solid #ddd;
+    border-radius : 3px
+}
+
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.chatbox { 
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.output {
+    padding: 1rem;
+    width: 100%;
+    max-height: 400px;
+    height: 400px;
+    border: 3px solid #ddd;
+    border-radius : 3px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
