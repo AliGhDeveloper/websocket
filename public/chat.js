@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:4000");
+const socket = io.connect("https://websocket1233.herokuapp.com");
 
 var message = document.querySelector('.message');
 var username = document.querySelector('.username');
